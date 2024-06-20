@@ -1,3 +1,7 @@
+export function menu() {
+    console.log(menu);
+}
+
 const headerToggle = document.getElementById("headerToggle");
 const headerNav = document.querySelector(".header__nav");
 

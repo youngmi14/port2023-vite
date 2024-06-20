@@ -78,8 +78,18 @@
 .port__item:hover .img {
     margin-top: 0;
 }
+.port__item .img img {
+    filter: saturate(0%);
+    vertical-align: top;
+    width: 100%;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
 .port__item .img:hover img {
-    filter: saturate(100%)
+    filter: saturate(100%);
+}
+.port__inner .port__wrap .port__item .img:hover img {
+    filter: saturate(100%);
 }
 .port__item .title {
     font-size: 1.5rem;
